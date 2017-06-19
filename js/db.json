@@ -1,0 +1,52 @@
+{
+	"items":[{
+		"socialNetwork": "Twitter",
+		"verizonHandle": "VZWSupport",
+		"chID": "@userid1",
+		"mtn": "xxx-xxx-xxxx",
+		"accountNumber": "abc123",
+		"myVerizonId": "myID",
+		"time": "5/14/2017 14:28",
+		"valid": "Y"
+	},
+	{
+		"socialNetwork": "Facebook",
+		"verizonHandle": "Verizon",
+		"chID": "@userid2",
+		"mtn": "xxx-xxx-xxxx",
+		"accountNumber": "abc123",
+		"myVerizonId": "myID",
+		"time": "5/15/2017 13:22",
+		"valid": "Y"
+	},
+	{
+		"socialNetwork": "Twitter",
+		"verizonHandle": "Verizon",
+		"chID": "@userid3",
+		"mtn": "xxx-xxx-xxxx",
+		"accountNumber": "abc123",
+		"myVerizonId": "myID",
+		"time": "5/15/2017 10:12",
+		"valid": "Y"
+	},
+	{
+		"socialNetwork": "Twitter",
+		"verizonHandle": "VZWSupport",
+		"chID": "@userid1",
+		"mtn": "xxx-xxx-xxxx",
+		"accountNumber": "abc123",
+		"myVerizonId": "myID",
+		"time": "5/15/2017 16:55",
+		"valid": "Y"
+	},
+	{
+		"socialNetwork": "Facebook",
+		"verizonHandle": "VerizonFios",
+		"chID": "@userid4",
+		"mtn": "xxx-xxx-xxxx",
+		"accountNumber": "abc123",
+		"myVerizonId": "myID",
+		"time": "5/15/2017 14:18",
+		"valid": "N"
+	}]
+}

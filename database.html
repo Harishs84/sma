@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Verizon Social Authentication Portal - Database</title>
+  <style>
+  .wrapper {
+    width: 500px;
+  }
+  .flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;    
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;    
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+  }
+
+  .items { flex: 1; }
+
+  .flex-item, .flex-items {  
+    background: #ebe7e7;
+    padding: 5px; 
+    border-right: 1px solid #000; 
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000; 
+    color: #000;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-align: center;
+  }
+
+  .flex-items {
+    background: #fff;
+    border-top: 0px;
+    font-weight: normal;
+  }
+
+  .flex-container > li:first-child {
+    border-left: 1px solid #000; 
+  }
+  </style>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h2>Verizon Social Authentication Portal - Database</h2>
+
+    <ul class="flex-container">
+        <li class="flex-item items">Social Network</li>
+        <li class="flex-item items">Verizon Handle</li>
+        <li class="flex-item items">Customer Handle</li>
+        <li class="flex-item items">MTN</li>
+        <li class="flex-item items">Account Number</li>
+        <li class="flex-item items">My Verizon ID</li>
+        <li class="flex-item items">Date/Time Authorised</li>
+        <li class="flex-item items">Verification</li>
+    </ul>
+    <div class="results"></div>
+
+  <script src="js/jquery-1.9.1.js"></script>
+  <script src="js/db.js"></script>
+  
+</body>
+</html>
